@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-image: url('img5.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .navbar {
+            background-color: lightblue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5em;
+        }
+        .nav-left {
+            flex: 1;
+            text-align: left;
+            font-size: 1.2em;
+            color:black;
+        }
+        .nav-center {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-center a {
+            margin: 0 0.5em;
+            padding: 0.3em 0.7em;
+            background-color: white;
+            color: red;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .nav-center a:hover {
+            background-color: #ffe5e5;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .content h1 {
+                margin: 0.5em 0;
+                font-size: 4em; 
+        }
+        .content button {
+            padding: 0.5em 1em;
+            font-size: 1.5em;
+            background-color: green; 
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .content button:hover {
+            background-color: #ff4d4d;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin: 1em 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.2em;
+        }
+        .footer .social-links {
+            margin-bottom: 0.2em;
+        }
+        .footer .social-links a {
+            color: white;
+            margin: 0 0.5em;
+            text-decoration: none;
+        }
+        .footer .social-links a:hover {
+            text-decoration: underline;
+        }
+        .footer .footer-text p {
+            margin: 0.1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-left">DebSoc</div>
+        <div class="nav-center">
+            <a href="#leaderboard">Leaderboard</a>
+            <a href="#rules">Rules</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="nav-right" style="flex: 1;"></div>
+    </div>
+
+    <div class="content">
+        <h1>Triviosity</h1>
+        <button>Sign In</button>
+    </div>
+
+    <div class="footer">
+        <div class="social-links">
+            <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
